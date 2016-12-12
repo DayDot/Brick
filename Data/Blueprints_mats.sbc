@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+  
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BrickDummying</SubtypeId>
+      </Id>
+      <DisplayName>Clay Bricks</DisplayName>
+      <Icon>Textures\GUI\Icons\Ingots\clay_brick.dds</Icon>
+      <Prerequisites>
+      </Prerequisites>
+      <Result Amount="5" TypeId="Component" SubtypeId="ClayBrick" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>  
+
+  </Blueprints>
+</Definitions>

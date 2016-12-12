@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <BlueprintClasses>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Dummy</SubtypeId>
+      </Id>
+      <DisplayName>Dummying</DisplayName>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Fake.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\Fake.dds</InputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+  
+  <BlueprintClassEntries>
+
+    <Entry Class="Dummy" BlueprintSubtypeId="BrickDummying" />
+
+  </BlueprintClassEntries>
+
+</Definitions>

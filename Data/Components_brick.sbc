@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ClayBrick</SubtypeId>
+      </Id>
+      <DisplayName>Clay Brick</DisplayName>
+      <Public>true</Public>
+      <Icon>Textures\GUI\Icons\Ingots\clay_brick.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Model>Models\Ingots\claybrick.mwm</Model>
+      <PhysicalMaterial>Clay</PhysicalMaterial>
+      <Mass>30</Mass>
+      <Volume>10</Volume>
+	  <CanSpawnFromScreen>false</CanSpawnFromScreen>
+      <MaxStackAmount>25</MaxStackAmount>
+      <Health>40</Health>
+      <MaxIntegrity>250</MaxIntegrity>
+    </Component>
+  </Components>
+</Definitions>

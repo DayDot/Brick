@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Model Name="Default">
+  <Parameter Name="Centered">false</Parameter>
+  <Parameter Name="RescaleFactor">0.01</Parameter>
+  <Parameter Name="RescaleToLengthInMeters">false</Parameter>
+  <Parameter Name="SpecularPower">10</Parameter>
+  <Parameter Name="SpecularShininess">0.8</Parameter>
+  <Material Name="BlockSheet">
+    <Parameter Name="SpecularIntensity">0</Parameter>
+    <Parameter Name="SpecularPower">1.960784</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="DiffuseTexture">.\block_sheet_de.png</Parameter>
+  </Material>
+</Model>

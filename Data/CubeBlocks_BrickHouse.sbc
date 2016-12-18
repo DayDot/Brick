@@ -412,7 +412,7 @@
       <DisplayName>Brick House Plank Door</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\PlankDoor.dds</Icon>
       <BlockPairName>WoodenFlatStraightDoorWBrick</BlockPairName>
-      <PhysicalMaterial>Wood</PhysicalMaterial>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -455,6 +455,142 @@
       <MaxIntegrity>1200</MaxIntegrity>
       <AvailableInSurvival>true</AvailableInSurvival>
       <GuiVisible>false</GuiVisible>
+    </Definition>
+ 
+  <!--                 From house Extensions -->
+      <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HouseHalfBrickBigWindow</SubtypeId>
+      </Id>
+      <DisplayName>Brick House Large Window</DisplayName>
+      <BlockPairName>HouseHalfTimberBigWindow</BlockPairName>
+      <Public>true</Public>
+      <Icon>Textures\GUI\Icons\cubes\House Half Brick Shutter Large.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\large\House Half Brick Big Window.mwm</Model>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\HouseHalfTimberBigWindow_Construction.mwm">
+          <MountPointOverrides>
+            <MountPoint Side="Top" Enabled="false" />
+          </MountPointOverrides>
+        </Model>
+        <!--<Model BuildPercentUpperBound="0.75" File="Models\Cubes\large\HouseHalfTimberWindow_Construction_2.mwm">
+          <MountPointOverrides>
+            <MountPoint Side="Top" Enabled="false" />
+          </MountPointOverrides>
+        </Model>-->
+      </BuildProgressModels>
+      <CriticalComponent Subtype="ClayBrick" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="1.0324" StartY="-0.0349058621" EndX="-0.032400012" EndY="0.42989403" />
+        <MountPoint Side="Front" StartX="0.7374" StartY="0.7698602" EndX="0.2626" EndY="1.02810025" />
+        <MountPoint Side="Front" StartX="1.02882659" StartY="0.365093976" EndX="0.6842358" EndY="1.031525" />
+        <MountPoint Side="Front" StartX="0.321223974" StartY="0.365093976" EndX="-0.0233668089" EndY="1.031525" />
+        <MountPoint Side="Left" StartX="-0.0338439941" StartY="-0.0349058621" EndX="0.130955979" EndY="0.42989403" />
+        <MountPoint Side="Left" StartX="-0.0314826965" StartY="0.365093976" EndX="0.128662691" EndY="1.031525" />
+        <MountPoint Side="Right" StartX="1.033844" StartY="-0.0349058621" EndX="0.869044" EndY="0.42989403" />
+        <MountPoint Side="Right" StartX="1.0314827" StartY="0.365093976" EndX="0.8713373" EndY="1.031525" />
+        <MountPoint Side="Top" StartX="0.2626" StartY="1.033844" EndX="0.7374" EndY="0.869044" />
+        <MountPoint Side="Top" StartX="-0.02882657" StartY="1.0314827" EndX="0.3157642" EndY="0.8713373" />
+        <MountPoint Side="Top" StartX="0.678776" StartY="1.0314827" EndX="1.02336681" EndY="0.8713373" />
+        <MountPoint Side="Bottom" StartX="-0.03239999" StartY="-0.0338439941" EndX="1.0324" EndY="0.130955979" />
+      </MountPoints>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="WoodenSticks" Count="4" />
+        <Component Subtype="ClayBrick" Count ="2" />
+      </Components>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <UseModelIntersection>true</UseModelIntersection>
+      <BuildType>Wall</BuildType>
+      <BuildMaterial>Stone</BuildMaterial>
+      <Direction>Horizontal</Direction>
+      <Rotation>Vertical</Rotation>
+      <CompoundTemplates>
+        <Template>Universal</Template>
+      </CompoundTemplates>
+      <MaxIntegrity>1200</MaxIntegrity>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>MedievalDoor</TypeId>
+          <SubtypeId>HouseHalfBrickBigWindowsShutter</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_MedievalDoorDefinition">
+      <Id>
+        <TypeId>MedievalDoor</TypeId>
+        <SubtypeId>HouseHalfBrickBigWindowsShutter</SubtypeId>
+      </Id>
+      <DisplayName>Large Plank Window</DisplayName>
+      <Icon>Textures\GUI\Icons\cubes\House Half Brick Shutter Large.dds</Icon>
+      <BlockPairName>HouseHalfTimberBigWindowsShutter</BlockPairName>
+      <Public>true</Public>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\large\House Half Brick Shutter Large.mwm</Model>
+      <CriticalComponent Subtype="ClayBrick" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\HouseHalfTimberBigWindow_Construction.mwm">
+        </Model>
+      </BuildProgressModels>
+      <Components>
+        <Component Subtype="WoodenSticks" Count="4" />
+        <Component Subtype="Timber10" Count ="2" />
+        <Component Subtype="ClayBrick" Count ="2" />
+      </Components>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="1.0324" StartY="-0.0349058621" EndX="-0.032400012" EndY="0.42989403" />
+        <MountPoint Side="Front" StartX="0.7374" StartY="0.7698602" EndX="0.2626" EndY="1.02810025" />
+        <MountPoint Side="Front" StartX="1.02882659" StartY="0.365093976" EndX="0.6842358" EndY="1.031525" />
+        <MountPoint Side="Front" StartX="0.321223974" StartY="0.365093976" EndX="-0.0233668089" EndY="1.031525" />
+        <MountPoint Side="Left" StartX="-0.0338439941" StartY="-0.0349058621" EndX="0.130955979" EndY="0.42989403" />
+        <MountPoint Side="Left" StartX="-0.0314826965" StartY="0.365093976" EndX="0.128662691" EndY="1.031525" />
+        <MountPoint Side="Right" StartX="1.033844" StartY="-0.0349058621" EndX="0.869044" EndY="0.42989403" />
+        <MountPoint Side="Right" StartX="1.0314827" StartY="0.365093976" EndX="0.8713373" EndY="1.031525" />
+        <MountPoint Side="Top" StartX="0.2626" StartY="1.033844" EndX="0.7374" EndY="0.869044" />
+        <MountPoint Side="Top" StartX="-0.02882657" StartY="1.0314827" EndX="0.3157642" EndY="0.8713373" />
+        <MountPoint Side="Top" StartX="0.678776" StartY="1.0314827" EndX="1.02336681" EndY="0.8713373" />
+        <MountPoint Side="Bottom" StartX="-0.03239999" StartY="-0.0338439941" EndX="1.0324" EndY="0.130955979" />
+      </MountPoints>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <UseModelIntersection>true</UseModelIntersection>
+      <BuildType>Wall</BuildType>
+      <Direction>Horizontal</Direction>
+      <Rotation>Vertical</Rotation>
+      <Subparts>
+        <Subpart Name="PlankShutterLarge">
+          <HingePosition x="0.00819" y="1.01495" z="-1.28436"/>
+        </Subpart>
+        <Subpart Name="PlankShutterLargeSupport">
+          <HingePosition x="0.01958" y="-0.1612" z="-1.16488"/>
+        </Subpart>
+      </Subparts>
+      <OpeningSequences>
+        <Sequence Speed="80" OpenDelay="0" CloseDelay="0" Axis="X" MaxAngle="80" InvertRotation="false">
+          <Id>0</Id>
+        </Sequence>
+        <Sequence Speed="80" OpenDelay="0" CloseDelay="0" Axis="X" MaxAngle="15" InvertRotation="true">
+          <Id>1</Id>
+        </Sequence>
+      </OpeningSequences>
+      <CompoundTemplates>
+        <Template>Universal</Template>
+      </CompoundTemplates>
+      <MaxIntegrity>600</MaxIntegrity>
+      <AvailableInSurvival>true</AvailableInSurvival>
+      <GuiVisible>true</GuiVisible>
     </Definition>
   </CubeBlocks>
 </Definitions>

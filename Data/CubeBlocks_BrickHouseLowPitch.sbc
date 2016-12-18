@@ -1,0 +1,377 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HouseHalfBrickTriangle_HALFLOW</SubtypeId>
+      </Id>
+      <DisplayName>BrickSlope LowPitch</DisplayName>
+      <BlockPairName>WoodenWallSlope_HALFLOW</BlockPairName>
+      <Public>true</Public>
+      <Icon>Textures\GUI\Icons\Cubes\HouseHalfBrickTriangle_HALFLOW.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\large\HouseHalfBrickTriangle_HALFLOW.mwm</Model>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\HouseHalfBrickTriangle_HALFLOW_Construction_1.mwm">
+          <MountPointOverrides>
+            <MountPoint Side="Top" Enabled="false" />
+          </MountPointOverrides>
+        </Model>
+      </BuildProgressModels>
+      <CriticalComponent Subtype="ClayBrick" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.1" />
+        <MountPoint Side="Right" StartX="0.9" StartY="0.0" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.5" EndX="0.75" EndY="0.25" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1" EndY="0.25" />
+        <MountPoint Side="Front" StartX="0.0" StartY="0.5" EndX="0.25" EndY="1" />
+        <MountPoint Side="Front" StartX="0.25" StartY="0.5" EndX="0.5" EndY="0.75" />
+      </MountPoints>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="WoodenSticks" Count="2" />
+        <Component Subtype="ClayBrick" Count ="1" />
+      </Components>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <UseModelIntersection>true</UseModelIntersection>
+     <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>HouseHalfBrickTriangle2_HALFLOW</SubtypeId>
+        </BlockVariant>
+     </BlockVariants> 
+      <BuildType>Wall</BuildType>
+      <BuildMaterial>Stone</BuildMaterial>
+      <Direction>Horizontal</Direction>
+      <Rotation>Both</Rotation>
+      <CompoundTemplates>
+        <Template>Universal</Template>
+      </CompoundTemplates>
+      <MaxIntegrity>400</MaxIntegrity>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HouseHalfBrickTriangle2_HALFLOW</SubtypeId>
+      </Id>
+      <DisplayName>BrickSlope LowPitch</DisplayName>
+      <BlockPairName>HouseHalfBrickTriangle2_HALFLOW</BlockPairName>
+      <Public>true</Public>
+      <Icon>Textures\GUI\Icons\Cubes\HouseHalfBrickTriangle2_HALFLOW.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\large\HouseHalfBrickTriangle2_HALFLOW.mwm</Model>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\HouseHalfBrickTriangle2_HALFLOW_Construction_1.mwm">
+          <MountPointOverrides>
+            <MountPoint Side="Top" Enabled="false" />
+          </MountPointOverrides>
+        </Model>
+      </BuildProgressModels>
+      <CriticalComponent Subtype="ClayBrick" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.1" />
+        <MountPoint Side="Right" StartX="0.9" StartY="0.0" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.5" EndX="0.75" EndY="0.25" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1" EndY="0.25" />
+        <MountPoint Side="Front" StartX="0.0" StartY="0.5" EndX="0.25" EndY="1" />
+        <MountPoint Side="Front" StartX="0.25" StartY="0.5" EndX="0.5" EndY="0.75" />
+      </MountPoints>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="WoodenSticks" Count="2" />
+        <Component Subtype="ClayBrick" Count ="1" />
+      </Components>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <UseModelIntersection>true</UseModelIntersection>
+      <BuildType>Wall</BuildType>
+      <BuildMaterial>Stone</BuildMaterial>
+      <Direction>Horizontal</Direction>
+      <Rotation>Both</Rotation>
+      <CompoundTemplates>
+        <Template>Universal</Template>
+      </CompoundTemplates>
+      <GuiVisible>false</GuiVisible>
+      <MaxIntegrity>400</MaxIntegrity>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HouseHalfBrickWall_LOWCENTER</SubtypeId>
+      </Id>
+      <DisplayName>BrickCenter LowPitch</DisplayName>
+      <BlockPairName>WoodenWall_LOWCENTER</BlockPairName>
+      <Public>true</Public>
+      <Icon>Textures\GUI\Icons\cubes\HouseHalfBrickWall_LOWCENTER.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\large\HouseHalfBrickWall_LOWCENTER.mwm</Model>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\HouseHalfBrickWall_LOWCENTER_Construction_1.mwm">
+          <MountPointOverrides>
+            <MountPoint Side="Top" Enabled="false" />
+          </MountPointOverrides>
+        </Model>
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.932400048" StartY="0.8695013" EndX="0.06759995" EndY="1.03430128" />
+        <MountPoint Side="Front" StartX="0.932400048" StartY="-0.03239999" EndX="0.06759995" EndY="0.132399991" />
+        <MountPoint Side="Front" StartX="1.03445077" StartY="-0.03023529" EndX="0.8696508" EndY="1.03456473" />
+        <MountPoint Side="Front" StartX="0.132119715" StartY="-0.03023529" EndX="-0.0326802731" EndY="1.03456473" />
+        <MountPoint Side="Front" StartX="0.936212957" StartY="0.06436181" EndX="0.06378704" EndY="0.935638249" />
+        <MountPoint Side="Left" StartX="-0.0362223163" StartY="-0.03023529" EndX="0.128577858" EndY="1.03456473" />
+        <MountPoint Side="Right" StartX="1.03622234" StartY="-0.03023529" EndX="0.8714222" EndY="1.03456473" />
+        <MountPoint Side="Top" StartX="0.06759997" StartY="1.03622222" EndX="0.932400048" EndY="0.8714222" />
+        <MountPoint Side="Top" StartX="-0.03445077" StartY="1.03622234" EndX="0.1303492" EndY="0.8714222" />
+        <MountPoint Side="Top" StartX="0.8678803" StartY="1.03622234" EndX="1.03268027" EndY="0.8714222" />
+        <MountPoint Side="Bottom" StartX="0.06759997" StartY="-0.03622217" EndX="0.932400048" EndY="0.128577814" />
+        <MountPoint Side="Bottom" StartX="-0.03445077" StartY="-0.0362223163" EndX="0.1303492" EndY="0.128577858" />
+        <MountPoint Side="Bottom" StartX="0.8678803" StartY="-0.0362223163" EndX="1.03268027" EndY="0.128577858" />
+      </MountPoints>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="WoodenSticks" Count="4" />
+        <Component Subtype="ClayBrick" Count ="2" />
+      </Components>
+      <CriticalComponent Subtype="ClayBrick" Index="0" />
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <UseModelIntersection>true</UseModelIntersection>
+      <BuildType>Wall</BuildType>
+      <BuildMaterial>Stone</BuildMaterial>
+      <Direction>Horizontal</Direction>
+      <Rotation>Both</Rotation>
+      <CompoundTemplates>
+        <Template>Universal</Template>
+      </CompoundTemplates>
+      <MaxIntegrity>400</MaxIntegrity>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HouseHalfBrickWall_HALFLOW</SubtypeId>
+      </Id>
+      <DisplayName>BrickCenter HalfWall</DisplayName>
+      <BlockPairName>WoodenWall_HALFLOW</BlockPairName>
+      <Public>true</Public>
+      <Icon>Textures\GUI\Icons\cubes\HouseHalfBrickWall_HALFLOW.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\large\HouseHalfBrickWall_HALFLOW.mwm</Model>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\HouseHalfBrickWall_HALFLOW_Construction_1.mwm">
+          <MountPointOverrides>
+            <MountPoint Side="Top" Enabled="false" />
+          </MountPointOverrides>
+        </Model>
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.932400048" StartY="0.8695013" EndX="0.06759995" EndY="1.03430128" />
+        <MountPoint Side="Front" StartX="0.932400048" StartY="-0.03239999" EndX="0.06759995" EndY="0.132399991" />
+        <MountPoint Side="Front" StartX="1.03445077" StartY="-0.03023529" EndX="0.8696508" EndY="1.03456473" />
+        <MountPoint Side="Front" StartX="0.132119715" StartY="-0.03023529" EndX="-0.0326802731" EndY="1.03456473" />
+        <MountPoint Side="Front" StartX="0.936212957" StartY="0.06436181" EndX="0.06378704" EndY="0.935638249" />
+        <MountPoint Side="Left" StartX="-0.0362223163" StartY="-0.03023529" EndX="0.128577858" EndY="1.03456473" />
+        <MountPoint Side="Right" StartX="1.03622234" StartY="-0.03023529" EndX="0.8714222" EndY="1.03456473" />
+        <MountPoint Side="Top" StartX="0.06759997" StartY="1.03622222" EndX="0.932400048" EndY="0.8714222" />
+        <MountPoint Side="Top" StartX="-0.03445077" StartY="1.03622234" EndX="0.1303492" EndY="0.8714222" />
+        <MountPoint Side="Top" StartX="0.8678803" StartY="1.03622234" EndX="1.03268027" EndY="0.8714222" />
+        <MountPoint Side="Bottom" StartX="0.06759997" StartY="-0.03622217" EndX="0.932400048" EndY="0.128577814" />
+        <MountPoint Side="Bottom" StartX="-0.03445077" StartY="-0.0362223163" EndX="0.1303492" EndY="0.128577858" />
+        <MountPoint Side="Bottom" StartX="0.8678803" StartY="-0.0362223163" EndX="1.03268027" EndY="0.128577858" />
+      </MountPoints>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="WoodenSticks" Count="4" />
+        <Component Subtype="ClayBrick" Count ="2" />
+      </Components>
+      <CriticalComponent Subtype="ClayBrick" Index="0" />
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <UseModelIntersection>true</UseModelIntersection>
+      <BuildType>Wall</BuildType>
+      <BuildMaterial>Stone</BuildMaterial>
+      <Direction>Horizontal</Direction>
+      <Rotation>Both</Rotation>
+      <CompoundTemplates>
+        <Template>Universal</Template>
+      </CompoundTemplates>
+      <MaxIntegrity>400</MaxIntegrity>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HouseHalfBrickWall_LowPitchAngle_UPPER</SubtypeId>
+      </Id>
+      <DisplayName>BrickSlope LowPitch U</DisplayName>
+      <BlockPairName>HouseHalfBrickWall_LowPitchAngle_UPPER</BlockPairName>
+      <Public>true</Public>
+      <Icon>Textures\GUI\Icons\Cubes\HouseHalfBrickWall_LowPitchAngle_UPPER.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\large\HouseHalfBrickWall_LowPitchAngle_UPPER.mwm</Model>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\HouseHalfBrickWall_LowPitchAngle_UPPER_Construction_1.mwm">
+          <MountPointOverrides>
+            <MountPoint Side="Top" Enabled="false" />
+          </MountPointOverrides>
+        </Model>
+      </BuildProgressModels>
+      <CriticalComponent Subtype="ClayBrick" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.1" />
+        <MountPoint Side="Right" StartX="0.9" StartY="0.0" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.5" EndX="0.75" EndY="0.25" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1" EndY="0.25" />
+        <MountPoint Side="Front" StartX="0.0" StartY="0.5" EndX="0.25" EndY="1" />
+        <MountPoint Side="Front" StartX="0.25" StartY="0.5" EndX="0.5" EndY="0.75" />
+      </MountPoints>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="WoodenSticks" Count="2" />
+        <Component Subtype="ClayBrick" Count ="1" />
+      </Components>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <UseModelIntersection>true</UseModelIntersection>
+     <BlockVariants>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>HouseHalfBrickWall_LowPitchAngleMir_UPPER</SubtypeId>
+        </BlockVariant>
+     </BlockVariants> 
+      <BuildType>Wall</BuildType>
+      <BuildMaterial>Stone</BuildMaterial>
+      <Direction>Horizontal</Direction>
+      <Rotation>Both</Rotation>
+      <CompoundTemplates>
+        <Template>Universal</Template>
+      </CompoundTemplates>
+      <MaxIntegrity>400</MaxIntegrity>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HouseHalfBrickWall_LowPitchAngleMir_UPPER</SubtypeId>
+      </Id>
+      <DisplayName>BrickSlope LowPitch 2</DisplayName>
+      <BlockPairName>HouseHalfBrickWall_LowPitchAngleMir_UPPER</BlockPairName>
+      <Public>true</Public>
+      <Icon>Textures\GUI\Icons\Cubes\HouseHalfBrickWall_LowPitchAngleMir_UPPER.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\large\HouseHalfBrickWall_LowPitchAngleMir_UPPER.mwm</Model>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\HouseHalfBrickWall_LowPitchAngleMir_UPPER_Construction_1.mwm">
+          <MountPointOverrides>
+            <MountPoint Side="Top" Enabled="false" />
+          </MountPointOverrides>
+        </Model>
+      </BuildProgressModels>
+      <CriticalComponent Subtype="ClayBrick" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.1" />
+        <MountPoint Side="Right" StartX="0.9" StartY="0.0" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.5" EndX="0.75" EndY="0.25" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1" EndY="0.25" />
+        <MountPoint Side="Front" StartX="0.0" StartY="0.5" EndX="0.25" EndY="1" />
+        <MountPoint Side="Front" StartX="0.25" StartY="0.5" EndX="0.5" EndY="0.75" />
+      </MountPoints>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="WoodenSticks" Count="2" />
+        <Component Subtype="ClayBrick" Count ="1" />
+      </Components>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <UseModelIntersection>true</UseModelIntersection>
+      <BuildType>Wall</BuildType>
+      <BuildMaterial>Stone</BuildMaterial>
+      <Direction>Horizontal</Direction>
+      <Rotation>Both</Rotation>
+      <CompoundTemplates>
+        <Template>Universal</Template>
+      </CompoundTemplates>
+      <GuiVisible>false</GuiVisible>
+      <MaxIntegrity>400</MaxIntegrity>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>HouseHalfBrickWall_LOWCENTER_UPPER</SubtypeId>
+      </Id>
+      <DisplayName>BrickCenter LowPitch U</DisplayName>
+      <BlockPairName>WoodenWall_LOWCENTER_UPPER</BlockPairName>
+      <Public>true</Public>
+      <Icon>Textures\GUI\Icons\cubes\HouseHalfBrickWall_LOWCENTER_UPPER.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\large\HouseHalfBrickWall_LOWCENTER_UPPER.mwm</Model>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\HouseHalfBrickWall_LOWCENTER_UPPER_Construction_1.mwm">
+          <MountPointOverrides>
+            <MountPoint Side="Top" Enabled="false" />
+          </MountPointOverrides>
+        </Model>
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.932400048" StartY="0.8695013" EndX="0.06759995" EndY="1.03430128" />
+        <MountPoint Side="Front" StartX="0.932400048" StartY="-0.03239999" EndX="0.06759995" EndY="0.132399991" />
+        <MountPoint Side="Front" StartX="1.03445077" StartY="-0.03023529" EndX="0.8696508" EndY="1.03456473" />
+        <MountPoint Side="Front" StartX="0.132119715" StartY="-0.03023529" EndX="-0.0326802731" EndY="1.03456473" />
+        <MountPoint Side="Front" StartX="0.936212957" StartY="0.06436181" EndX="0.06378704" EndY="0.935638249" />
+        <MountPoint Side="Left" StartX="-0.0362223163" StartY="-0.03023529" EndX="0.128577858" EndY="1.03456473" />
+        <MountPoint Side="Right" StartX="1.03622234" StartY="-0.03023529" EndX="0.8714222" EndY="1.03456473" />
+        <MountPoint Side="Top" StartX="0.06759997" StartY="1.03622222" EndX="0.932400048" EndY="0.8714222" />
+        <MountPoint Side="Top" StartX="-0.03445077" StartY="1.03622234" EndX="0.1303492" EndY="0.8714222" />
+        <MountPoint Side="Top" StartX="0.8678803" StartY="1.03622234" EndX="1.03268027" EndY="0.8714222" />
+        <MountPoint Side="Bottom" StartX="0.06759997" StartY="-0.03622217" EndX="0.932400048" EndY="0.128577814" />
+        <MountPoint Side="Bottom" StartX="-0.03445077" StartY="-0.0362223163" EndX="0.1303492" EndY="0.128577858" />
+        <MountPoint Side="Bottom" StartX="0.8678803" StartY="-0.0362223163" EndX="1.03268027" EndY="0.128577858" />
+      </MountPoints>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Components>
+        <Component Subtype="WoodenSticks" Count="4" />
+        <Component Subtype="ClayBrick" Count ="2" />
+      </Components>
+      <CriticalComponent Subtype="ClayBrick" Index="0" />
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <UseModelIntersection>true</UseModelIntersection>
+      <BuildType>Wall</BuildType>
+      <BuildMaterial>Stone</BuildMaterial>
+      <Direction>Horizontal</Direction>
+      <Rotation>Both</Rotation>
+      <CompoundTemplates>
+        <Template>Universal</Template>
+      </CompoundTemplates>
+      <MaxIntegrity>400</MaxIntegrity>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

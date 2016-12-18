@@ -464,7 +464,7 @@
         <SubtypeId>HouseHalfBrickBigWindow</SubtypeId>
       </Id>
       <DisplayName>Brick House Large Window</DisplayName>
-      <BlockPairName>HouseHalfTimberBigWindow</BlockPairName>
+      <BlockPairName>HouseHalfBrickBigWindow</BlockPairName>
       <Public>true</Public>
       <Icon>Textures\GUI\Icons\cubes\House Half Brick Shutter Large.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -530,7 +530,7 @@
       </Id>
       <DisplayName>Large Plank Window</DisplayName>
       <Icon>Textures\GUI\Icons\cubes\House Half Brick Shutter Large.dds</Icon>
-      <BlockPairName>HouseHalfTimberBigWindowsShutter</BlockPairName>
+      <BlockPairName>HouseHalfBrickBigWindowsShutter</BlockPairName>
       <Public>true</Public>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>

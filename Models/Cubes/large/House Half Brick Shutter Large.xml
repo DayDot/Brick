@@ -25,9 +25,11 @@
     <Parameter Name="DiffuseColorY">255</Parameter>
     <Parameter Name="DiffuseColorZ">255</Parameter>
     <Parameter Name="Technique">MESH</Parameter>
-    <Parameter Name="DiffuseTexture">Textures\Models\Cubes\Brick_A1_Diffuse.dds</Parameter>
-    <Parameter Name="NormalTexture">Textures\Models\Cubes\Brick_A4_Normal.dds</Parameter>
-    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Brick_A1_Diffuse.dds</Parameter>
-    <Parameter Name="AlphamaskTexture">Textures\Models\Cubes\Brick_A3_Specular.dds</Parameter>
+    <Parameter Name="DiffuseTexture">Textures\Models\Cubes\BrickHouse_diffuse.dds</Parameter>
+    <Parameter Name="NormalTexture">Textures\Models\Cubes\BrickHouse_normal.dds</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\BrickHouse_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\BrickHouse_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\BrickHouse_add.dds</Parameter>
+    <Parameter Name="AlphamaskTexture">Textures\Models\Cubes\BrickHouse_alphamask.dds</Parameter>
   </Material>
 </Model>
